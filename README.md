@@ -1,19 +1,38 @@
-#How do I approach designing software?
-This project has helped me improve my skills in positioning and rotating objects, applying textures to meshes, and adjusting lighting 
-to create a more realistic visual scene in OpenGL. I started by creating the 3D objects and arranging them in the scene, then added 
-textures and lighting. I tested the scene repeatedly, making adjustments to object positions and camera angles until the final design 
-matched the 3D scene I was recreating. The process of organizing objects and textures, then adjusting them based on trial and error, 
-can be applied in future projects to make design and debugging easier and faster, especially in 3D or interactive environments.
+# 3D Scene in OpenGL
 
-#How do I approach developing programs?
-I used new strategies like carefully adjusting object rotation and alignment based on visual feedback, making use of functions for setting textures
-and lighting to ensure everything looked realistic. Iteration was important as I continuously adjusted the camera, lighting, and object positions to 
-make sure everything was aligned correctly and the scene was visually accurate after every change. I started by focusing on basic functionality and, 
-as the project progressed, I paid more attention to details like texture application, camera controls, and lighting, refining the code to make the 
-scene as realistic as possible.
+This project focuses on designing and developing a 3D scene using C++ and OpenGL. It helped me improve my skills in positioning and rotating objects, applying textures to meshes, and adjusting lighting to create a visually realistic scene. Through iterative design and testing, I recreated a 3D scene by fine-tuning object placement, camera angles, and other elements to achieve a cohesive visual experience.
 
-#How can computer science help me in reaching my goals?
-Working with computational graphics enhances my understanding of how to represent and manipulate visual data, which is useful for courses in areas like 
-game development, simulations, and computer graphics. I have also been able to utalize and build upon my linear algebra skills during this project. 
-In my future career, skills in computational graphics will help me work in fields such as game development, virtual environments, and interactive media, 
-where creating realistic visual experiences is required.
+## Key Features
+
+- **3D Object Creation**: Models and arranges objects in the scene.
+- **Texture Mapping**: Applies textures to meshes for realism.
+- **Lighting**: Adjusts lighting to enhance the scene’s visual appeal.
+- **Camera Controls**: Allows for scene navigation and manipulation.
+
+## Development Approach
+
+- Designed the scene iteratively by adjusting object positions, camera angles, and lighting.
+- Focused on functionality first, then refined details like textures, camera control, and lighting.
+- Emphasized trial-and-error for alignment and realistic visuals.
+
+## Technologies Used
+
+- **C++**  
+- **OpenGL**  
+- **GLFW** (for window/context creation)  
+- **GLM** (for math operations, transformations)  
+- **Assimp** (for importing 3D models)
+
+## Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Adri-ayala/3D-Scene.git
+   ```
+2. Install the necessary dependencies (OpenGL, GLFW, GLM, Assimp).
+3. Build the project using your preferred C++ IDE or build system (e.g., CMake).
+4. Run the program to view the 3D scene and interact with the camera.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
